@@ -5,7 +5,7 @@ subnets = {
     subnet_cidr = ["10.100.0.0/24", "10.100.1.0/24"]
   }
   apps = {
-    name        = "app-private"
+    name        = "app"
     subnet_cidr = ["10.100.2.0/24", "10.100.3.0/24"]
   }
   db = {

@@ -21,3 +21,4 @@ env = "dev"
 AZ = ["us-east-1a", "us-east-1b"]
 default_vpc_id = "vpc-0ad204f24f481eb19"
 default_vpc_cidr = "172.31.0.0/16"
+default_route_table_id = "rtb-0ae8aa7d453a7298f"

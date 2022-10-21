@@ -25,5 +25,8 @@ default_vpc_cidr = "172.31.0.0/16"
 default_route_table_id = "rtb-0ae8aa7d453a7298f"
 
 ## DOCDB
-engine_version = "4.0.0"
+docdb_engine_version = "4.0.0"
+docdb_cluster_instances_count = 1
+docdb_instance_class = "db.t3.medium"
+
 

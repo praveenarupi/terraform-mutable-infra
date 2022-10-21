@@ -8,3 +8,4 @@ variable "default_route_table_id" {}
 
 
 variable "engine_version" {}
+variable "subnet_ids" {}

@@ -39,5 +39,6 @@ elasticache_engine_version = "6.2"
 elasticache_cluster_instances_count = 1
 elasticache_instance_class = "cache.t3.micro"
 
-
+## RabbitMQ
+rabbitmq_instance_type = "t3.micro"
 

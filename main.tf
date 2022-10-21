@@ -15,4 +15,5 @@ module "docdb" {
   engine_version         = var.engine_version
   apps_subnet_ids = local.apps_subnets_ids
   vpc_id = module.vpc.vpc_id
+  vpc_cidr_block = var.vpc_cidr_block
 }

@@ -1,7 +1,9 @@
 vpc:
   source:  "https://github.com/praveenarupi/tf-module-vpc.git"
   version: "main"
-
 docdb:
   source:  "https://github.com/praveenarupi/tf-module-docdb.git"
+  version: "main"
+rds:
+  source:  "https://github.com/praveenarupi/tf-module-rds.git"
   version: "main"

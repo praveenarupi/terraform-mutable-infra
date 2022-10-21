@@ -29,4 +29,8 @@ docdb_engine_version = "4.0.0"
 docdb_cluster_instances_count = 1
 docdb_instance_class = "db.t3.medium"
 
+## RDS
+rds_engine_version = "5.7.38"
+rds_cluster_instances_count = 1
+rds_instance_class = "db.t3.micro"
 

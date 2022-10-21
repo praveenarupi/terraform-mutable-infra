@@ -42,3 +42,4 @@ elasticache_instance_class = "cache.t3.micro"
 ## RabbitMQ
 rabbitmq_instance_type = "t3.micro"
 
+WORKSTATION_IP = "172.31.0.69/32"

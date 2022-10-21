@@ -20,3 +20,4 @@ variable "elasticache_cluster_instances_count" {}
 variable "elasticache_engine_version" {}
 
 variable "rabbitmq_instance_type" {}
+variable "WORKSTATION_IP" {}

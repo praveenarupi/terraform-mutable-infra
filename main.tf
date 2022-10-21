@@ -15,6 +15,9 @@ module "vpc" {
 //  engine_version         = var.engine_version
 //}
 
+locals {
+  apps_subnets_ids = module.vpc.out["apps"].subnet_ids
+}
 output "out" {
-  value = module.vpc.out
+  value = locals.apps_subnets_ids
 }

@@ -21,3 +21,5 @@ variable "elasticache_engine_version" {}
 
 variable "rabbitmq_instance_type" {}
 variable "WORKSTATION_IP" {}
+
+variable "PUBLIC_DNS_RECORD" {}
